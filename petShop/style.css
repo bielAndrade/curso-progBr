@@ -1,0 +1,278 @@
+*{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.856);
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    background-color: rgba(123, 123, 207, 0.5);
+    padding: 10px;
+    height: 60px;
+}
+
+nav{
+    text-align: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 70px 0 70px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    border-bottom: 3px orange solid;
+    transition: 0.4s;
+}
+
+
+.banner{
+    background-image: url(./imagens/bannerDog.jpg);
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1{
+    color: orange;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+.banner h2{
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: auto; 
+    text-align: center;
+}
+
+.about{
+    max-width: 600px;
+    padding: 30px;
+    margin: auto;
+}
+
+.about h3{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 30px 0 30px 0;
+}
+
+.animals{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.animals h3{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 30px 0 30px 0;
+
+}
+
+.animals figure{
+    display: inline;
+    padding: 30px;
+}
+
+.animalImage:hover{
+    border: 5px solid rgb(231, 231, 231);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.photo{
+    max-width: 1000px;
+    padding: 30px;
+    margin: auto;
+}
+
+.produts h3{
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 30px 0 30px 0;
+}
+
+.soon{
+    background-color: rgba(128, 128, 128, 0.692);
+    max-width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: cursive;
+    padding-top: 150px;
+}
+
+
+
+footer{
+    background-color: rgba(85, 85, 226, 0.596);
+    padding: 50px;
+}
+
+.contact{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.contactInfo{
+    padding: 40px;
+    padding-right: 100px;
+}
+
+.contactInfo h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.localInfo{
+    font-size: 18px;
+}
+
+#iconL{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.numberInfo{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#iconN{
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+
+.login{
+    padding: 40px;
+}
+
+.login h3{
+    margin-bottom: 15px;
+}
+
+.formul{
+    width: 700px;
+    height: 250px;
+}
+
+#name, #email{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#text{
+    padding: 15px;
+    padding-left: 10px;
+    width: 510px;
+    height: 100px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#submit{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: rgba(85, 85, 226, 0.596);
+    border: 2px orange solid;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+
+    .navbar{
+        height: 250px;
+    }
+
+    nav{
+        max-width: 150px;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1300px){
+    
+    .contact{
+        display: block;
+    }
+    
+    .contactInfo{
+        max-width: 300px;
+        margin: auto;
+        padding-right: 0;
+    }
+
+    .login{
+        max-width: 600px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:900px){
+
+    .formul{
+        margin: auto;
+        max-width: 400px;
+        height: 250px;
+    }
+
+    .login{
+        text-align: center;
+    }
+
+    #text{
+        width: 260px;
+    }
+
+}

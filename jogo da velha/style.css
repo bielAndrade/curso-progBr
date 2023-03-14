@@ -1,0 +1,55 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+}
+
+
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    background-color: beige;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+}
+
+#newGame{
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: beige;
+    width: 120px;
+    height: 40px;
+    border: solid 1px gray;
+    font-weight: 700;
+    border-radius: 15%;
+}

@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+}
+
+.barbecue{
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.473);
+    border-radius: 10px;
+}
+
+.barbecue h1{
+    text-align: center;
+    color: rgb(17, 44, 44);
+    font-weight: 700;
+}
+
+#adults, #kids, #length{
+    display: block;
+    max-width: 200px;
+    margin: 0px auto 20px auto;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.button{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#calc{
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: rgba(240, 248, 255, 0.473);
+}
+
+#limp{
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: rgba(240, 248, 255, 0.473);
+}
+
+.results{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#meat, #beer, #soda{
+    margin-bottom: 15px;
+}

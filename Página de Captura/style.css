@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    margin: 0 360px 0 360px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+}
+
+.title{
+    text-transform: uppercase;
+    background-color: #48C5CE;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.login{
+    background-image: url(./people.jpg);
+    height: 570px;
+    padding: 20px;
+    margin-bottom: 0;
+    background-image: cover;
+
+}
+
+.logar{
+    background-color: rgba(236, 236, 236, 0.8);
+    height: 500px;
+    width: 340px;
+    padding: 20px;
+    float: right;
+}
+
+#event{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.formul{
+    margin: 20px 0 0px 0;
+}
+
+#nome, #email {
+    width: 100%;
+    height: 45px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+}
+
+#cidade{
+    width: 100%;
+    height: 45px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0 10px 0 0px;
+    /* background: url(./arrow.jpg); */
+    /* background:url("/Style Library/Nifgashim/Images/drop_arrrow.png") no-repeat 10px 10px; */
+}
+
+#signUp{
+    color: white;
+    background-color: #48C5CE;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 0 10px 0 10px;
+}
+
+.palestra{
+    background-color: rgb(49, 49, 49);
+    margin-top: 0;
+    height: 380px;
+}
+
+.presentation{
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 30px 0;
+    display: flex;
+}
+
+.palestrante{
+    color: white;
+    font-size: 1.4em;
+    margin-top: 57px;
+}
+
+.palestrante p{
+    font-size: 17px;
+    line-height: 23px;
+}
+
+#face{
+    width: 200px;
+    height: 300px;
+}
